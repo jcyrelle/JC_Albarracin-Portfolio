@@ -604,3 +604,32 @@ h2 i.fa-2xs {
 [data-theme="dark"] .tagline {
   color: var(--muted);
 }
+
+.email-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.email-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.email-label i {
+  margin-right: 4px;
+}
+
+.email-address {
+  font-size: 0.95rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+[data-theme="dark"] .email-address {
+  color: var(--text);
+}
