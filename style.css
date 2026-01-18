@@ -436,3 +436,25 @@ img {
     justify-content: center;
   }
 }
+
+/* Icon styles */
+.location i {
+  margin-right: 5px;
+  font-size: inherit;
+}
+
+h2 i {
+  margin-right: 8px;
+  color: inherit;
+}
+
+h2 i.fa-2xs {
+  margin-right: 8px;
+  color: inherit;
+  vertical-align: middle;
+}
+
+.contact-btn i {
+  margin-right: 6px;
+  vertical-align: middle;
+}
